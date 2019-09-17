@@ -1,0 +1,12 @@
+.c-icon-box {
+    text-align: center;
+
+    &__image {
+       margin-bottom: $grid-base * 2;
+    }
+
+    &__text {
+        font-size: $font-size-8;
+        margin-top: $grid-base;
+    }
+}

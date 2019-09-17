@@ -1,0 +1,48 @@
+.t-site-header {
+    margin-bottom: $grid-base * 2;
+    margin-top: $grid-base * 2;
+
+    &__menu {
+        margin-top: $grid-base * 2;
+
+        @include large-up {
+            text-align:right;
+            margin-top:0;
+        }
+    }
+
+    &__nav-button {
+        @include large-up{
+            margin-right: 0;
+        }
+    }
+
+    &__hero {
+        padding-bottom: $grid-base * 7;
+        padding-top: $grid-base * 4;
+    }
+
+    &__hero-image {
+        margin-bottom: $grid-base * 3;
+
+        @include medium-up {
+            margin-bottom: 0;
+        }
+    }
+
+    &__intro-text {
+        color: $primary;
+        font-weight: bold;
+        font-size: $font-size-4;
+        letter-spacing: $letter-spacing-condensed;
+    }
+
+    &__buttons {
+        margin-top: $grid-base * 5;
+    }
+
+    &__first-button {
+        margin-right: $grid-base;
+    }
+
+}

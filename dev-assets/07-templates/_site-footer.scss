@@ -1,0 +1,23 @@
+.t-site-footer {
+
+    &__main {
+        padding-bottom: $grid-base * 3;
+        padding-top: $grid-base * 4;
+    }
+
+    &__header {
+        display:flex;
+        align-items:flex-end;
+        height: $grid-base *5;
+        margin-bottom: $grid-base * 2;
+    }
+
+    &__copy {
+        background-color: $gray-light;
+        color: $primary;
+        font-size: $font-size-9;
+        padding-bottom: $grid-base * 2.5;
+        padding-top: $grid-base * 2.5;
+    }
+
+}

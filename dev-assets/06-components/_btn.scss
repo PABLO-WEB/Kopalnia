@@ -1,0 +1,53 @@
+.c-btn {
+    border: none;
+    border-radius: $border-radius;
+    display: inline-block;
+    font-size: $font-size-8;
+    font-weight: 700;
+    line-height: $line-height-sm;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+        color: $white;
+        text-decoration: none;
+    }
+
+    &--accent {
+        background-color: $accent;
+        color: $white;
+
+        &:hover {
+            background-color: lighten($accent, 15%);
+            color: $white;
+        }
+    }
+
+    &--primary{
+        background-color: $primary;
+        color: $white;
+
+        &:hover {
+            background-color: lighten($primary, 15%);
+            color: $white;
+        }
+    }
+
+    &--light{
+        background-color: $primary-light;
+        color: $white;
+
+        &:hover {
+            background-color: lighten($primary-light, 15%);
+            color: $white;
+        }
+    }
+
+    &--small {
+        border-radius: 3px;
+        font-size: $font-size-7;
+        font-weight: normal;
+        padding: .5rem .85rem;
+    }
+}
